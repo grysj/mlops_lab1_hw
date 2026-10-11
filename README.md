@@ -1,4 +1,5 @@
 # mlops_lab1_hw
+<<<<<<< HEAD
 
 ## Run with Docker Compose
 
@@ -18,3 +19,5 @@ curl -X POST http://localhost:8000/predict \
 
 The Docker image includes the application dependencies and the local models
 under `models/`.
+=======
+>>>>>>> a62eeff (lab01_hw_done)
