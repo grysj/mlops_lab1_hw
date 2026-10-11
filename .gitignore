@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+#ml models
+models/classifier.joblib
+models/sentence_transformer.model

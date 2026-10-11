@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.6
+    hooks:
+      - id: ruff-check # Linter
+        args: [ --fix ] # Ensure fixes are applied
+      - id: ruff-format # Formatter
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: ""
+    hooks:
+      - id: mypy
+        args: [ --ignore-missing-imports ]
